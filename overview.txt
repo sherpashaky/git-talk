@@ -40,4 +40,6 @@ IMHO, for a software developer, git is the best thing since sliced bread. Why do
     - There are times you have files that may be as a result of builds or file editor e.g vim's .swp
       and you want to ensure you do not add these files into the repository. You will need to create
       a .gitignore file, this will contain the name or extension of files you want to ignore.
+    - To view the diff of a specific commit
+    $ git show e72b7857  # use the hash of the commit, usually the first 5 or so chars are unique.
 * 
