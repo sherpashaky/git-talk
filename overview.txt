@@ -47,3 +47,9 @@ IMHO, for a software developer, git is the best thing since sliced bread. Why do
       create branches on the local machine without connecting to a remote git server as well as
       merge branches. To create a branch
     $ git branch -b demo-branching
+    - You can make commits in the new branch. Branching is the way you adapt to a specific workflow.
+    - When you are done with your changes in the current branch and want to apply your changes
+      in the master branch, you'll first switch to master branch. Then you will use the merge
+      command to merge the changes of the demo-branch into the master branch.
+    $ git checkout master
+    $ git merge demo-branching
