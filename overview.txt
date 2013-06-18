@@ -42,4 +42,8 @@ IMHO, for a software developer, git is the best thing since sliced bread. Why do
       a .gitignore file, this will contain the name or extension of files you want to ignore.
     - To view the diff of a specific commit
     $ git show e72b7857  # use the hash of the commit, usually the first 5 or so chars are unique.
-* 
+* Local branching and Merging
+    - Unlike CVS or subversion, git provides local branches and merging. This means you can
+      create branches on the local machine without connecting to a remote git server as well as
+      merge branches. To create a branch
+    $ git branch -b demo-branching
