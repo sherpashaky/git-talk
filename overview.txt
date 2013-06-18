@@ -20,6 +20,10 @@ IMHO, for a software developer, git is the best thing since sliced bread. Why do
     - Now, to create a git repository you use the command
     $ git init  # this creates a git repository in your project folder i.e .git folder
         - you do not need to be connected to the internet or network to get started
+    - It is important to configure a name for the author for your repository, it becomes
+      easier to indicate that you are the author of the work when you make commits.
+    $ git config user.name "Ukang'a Dickson"
+    $ git config user.email ukanga@gmail.com
     $ git status  # shows the status of your repository and staging information
         - i.e which files are untracked - not yet added to the repository
         - modified
@@ -29,8 +33,4 @@ IMHO, for a software developer, git is the best thing since sliced bread. Why do
     $ git commit -m 'initial commit'  # commits staged files into your repository,
                                       # creates a hash that you can reference the commit
     $ git log  # view your commit history, shows author, hash reference
-    - It is important to configure a name for the author for your repository, it becomes
-      easier to indicate that you are the author of the work
-    $ git config user.name "Ukang'a Dickson"
-    $ git config user.email ukanga@gmail.com
 * 
