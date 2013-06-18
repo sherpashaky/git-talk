@@ -33,4 +33,9 @@ IMHO, for a software developer, git is the best thing since sliced bread. Why do
     $ git commit -m 'initial commit'  # commits staged files into your repository,
                                       # creates a hash that you can reference the commit
     $ git log  # view your commit history, shows author, hash reference
+    - when you make changes to see the diff of what has changed you use the command
+    $ git diff
+    - If you had staged your changes, to get the diff
+    $ git diff --staged
+
 * 
