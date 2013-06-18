@@ -1,0 +1,36 @@
+Git
+---
+
+Git is a distributed version control system.
+
+It's pretty first to get started with and can soon become very addictive as it makes
+your work easy and fun. It stays out of your way.
+
+IMHO, for a software developer, git is the best thing since sliced bread. Why do I say so?
+
+* It's easy to get started
+    - just create your project directory
+    - mkdir git-talk
+    - cd git-talk
+    - add files to your project e.g a readme file
+        cat > README.md
+        This is the git talk project
+        Ctrl + d
+        echo "git is awesome" > overview.txt
+    - Now, to create a git repository you use the command
+    $ git init  # this creates a git repository in your project folder i.e .git folder
+        - you do not need to be connected to the internet or network to get started
+    $ git status  # shows the status of your repository and staging information
+        - i.e which files are untracked - not yet added to the repository
+        - modified
+        - staged for commit: Note you can stage files for commit, and still make changes
+          to this files without loosing your changes, i'll show you that in a second
+    $ git add README.md overview.txt  # stages files for commit, adding files to your repository
+    $ git commit -m 'initial commit'  # commits staged files into your repository,
+                                      # creates a hash that you can reference the commit
+    $ git log  # view your commit history, shows author, hash reference
+    - It is important to configure a name for the author for your repository, it becomes
+      easier to indicate that you are the author of the work
+    $ git config user.name "Ukang'a Dickson"
+    $ git config user.email ukanga@gmail.com
+* 
