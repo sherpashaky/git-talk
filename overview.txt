@@ -59,3 +59,9 @@ IMHO, for a software developer, git is the best thing since sliced bread. Why do
       git history
     $ git rebase master
 * Sharing, Remote Server, Contributions
+* cherry-picking
+    - You can be able to pick a specific commit form a different branch and add it to your branch. This
+      is referred to us cherry-picking. Identify the commit using git log and then pick it.
+    (demo) $ git log master
+    (demo) $ git cherry-pick f43de45
+    (demo) $ git log
