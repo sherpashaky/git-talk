@@ -67,4 +67,9 @@ IMHO, for a software developer, git is the best thing since sliced bread. Why do
     - Then update the remote repository with your changes, and set up upstream tracking
     $ git push -u origin master  # from now on a simple push will push your changes to the remote repo
     $ git pull  # will update your repository with changes from the remote repo
-
+* cherry-picking
+    - You can be able to pick a specific commit form a different branch and add it to your branch. This
+      is referred to us cherry-picking. Identify the commit using git log and then pick it.
+    (demo) $ git log master
+    (demo) $ git cherry-pick f43de45
+    (demo) $ git log
