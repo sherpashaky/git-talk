@@ -59,3 +59,12 @@ IMHO, for a software developer, git is the best thing since sliced bread. Why do
       git history
     $ git rebase master
 * Sharing, Remote Server, Contributions
+    - You can host your repository on a remote server like github.com or bitbucket.org which offers
+      free private repositories. These allows to share you repository, invite contributions from
+      others and gives you access from anywhere.
+    - To do this, you have to specify a named remote repository for your repository.
+    $ git remote add origin https://github.com/ukanga/git-talk.git
+    - Then update the remote repository with your changes, and set up upstream tracking
+    $ git push -u origin master  # from now on a simple push will push your changes to the remote repo
+    $ git pull  # will update your repository with changes from the remote repo
+
