@@ -53,3 +53,7 @@ IMHO, for a software developer, git is the best thing since sliced bread. Why do
       command to merge the changes of the demo-branch into the master branch.
     $ git checkout master
     $ git merge demo-branching
+    - Rebasing: you could also rebase instead of merging, this means you will replay your commits
+      on top of another branch
+    $ git rebase master
+* Sharing, Remote Server, Contributions
